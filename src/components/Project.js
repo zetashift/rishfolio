@@ -1,5 +1,5 @@
 import React from "react"
-import { DiGithubAlt } from "@react-icons/all-files/di/DiGithubAlt"
+
 
 export default function Project({
   projectName,
@@ -22,10 +22,10 @@ export default function Project({
       </div>
       <div className="project-links">
         <a href={githubURL} className="project-link">
-          <DiGithubAlt />
+          
           Github
         </a>
-        <a>Live Site</a>
+        <a className="project-link">Live Site</a>
       </div>
     </div>
   )

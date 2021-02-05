@@ -49,11 +49,20 @@
   display: flex;
   justify-content: center;
   flex-direction: row;
+  align-items: baseline;
+}
+
+.project-link {
+  margin: 10px 5px 10px 5px;
+  background-color: $desert-sand;
+  border-radius: 25px;
+  padding: 10px;
+  color: black;
 }
 
 .project-links a:hover {
   cursor: pointer;
-  color: orange;
+  color: white;
 }
 
 .project-links::before {
