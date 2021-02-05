@@ -1,6 +1,13 @@
 import React from "react"
 import { Helmet } from "react-helmet"
-import { Header, About, Projects, Footer, Contact } from "../components"
+import {
+  Header,
+  About,
+  Technologies,
+  Projects,
+  Footer,
+  Contact,
+} from "../components"
 
 const Break = () => <hr className="break" />
 
@@ -8,7 +15,7 @@ export default function Home() {
   return (
     <div>
       <Helmet>
-        <meta charSet="utf-8"/>
+        <meta charSet="utf-8" />
         <title>Rishad Sewnarain | Portfolio</title>
       </Helmet>
       <Header />
@@ -16,6 +23,9 @@ export default function Home() {
       <About />
       <Break />
       <Projects />
+      <Break />
+      <Technologies />
+
       <Break />
       <Contact />
       <Break />

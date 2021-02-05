@@ -1,5 +1,5 @@
 import React from "react"
-import Technologies from "./Technologies"
+
 
 export default function About() {
   return (
@@ -26,8 +26,6 @@ export default function About() {
         I very much enjoy contributing to open-source projects, working out and
         food.
       </p>
-
-      <Technologies />
     </div>
   )
 }

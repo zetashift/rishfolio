@@ -26,9 +26,19 @@ a {
   color: #75472f;
 }
 
+.techs h2 {
+ 
+  text-align: center;
+  margin: 0 auto;
+}
 .tech {
+  text-align: center;
+  max-width: 65rem;
+ 
+  padding: 0 20px;
   margin: 1em;
 }
+
 .tech:hover {
   color: $orange;
   transition: $transition-style;
