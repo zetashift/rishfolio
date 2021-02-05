@@ -3,7 +3,7 @@
 nav {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  // flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -57,6 +57,7 @@ nav {
   align-items: center;
   @media (min-width: $mobile-desktop-breakpoint) {
     flex-direction: row;
+    
   }
 }
 
