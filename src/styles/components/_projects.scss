@@ -29,13 +29,19 @@
   object-fit: cover;
   display: flex;
   flex-wrap: wrap;
-  width: 500px;
+  // width: 500px;
   flex-direction: column;
   border: 2px $desert-sand solid;
   margin: 1em;
   box-shadow: 5px 5px $champagne-pink;
 }
 
+.project-container img {
+  @media (max-width: 500px){
+    width: 100%;
+    object-fit: cover;    
+  }
+}
 .project-container:hover {
   top: -2px;
   box-shadow: 7px 7px $ash-gray;

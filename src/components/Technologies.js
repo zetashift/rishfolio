@@ -126,7 +126,7 @@ export default function Technologies() {
           </div>
         </a>
 
-        <a href="https://www.kernel.org/">
+        <a href="https://elixir-lang.org/">
           <div className="tech">
             <div className="tech-icon">
               <SiElixir />
