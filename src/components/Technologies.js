@@ -19,7 +19,7 @@ export default function Technologies() {
   return (
     <div className="techs">
       <h2>
-        Technologies I love:
+        Technologies I <span role="img" aria-label="love"> ❤️</span>:
       </h2>
       ️
       <div className="tech-grid">
