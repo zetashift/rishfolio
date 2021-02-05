@@ -11,7 +11,6 @@
   display: grid;
   grid-template-columns: 1fr;
   justify-content: center;
-
   @media (min-width: 1000px) {
     grid-template-columns: 1fr 1fr;
   }
@@ -29,6 +28,7 @@
 .project-container {
   object-fit: cover;
   display: flex;
+  flex-wrap: wrap;
   width: 500px;
   flex-direction: column;
   border: 2px $desert-sand solid;
@@ -47,6 +47,7 @@
 
 .project-description {
   font-size: 1.2rem;
+  text-align: center;
 }
 
 .project-links {
@@ -77,6 +78,7 @@
 
 .project-tags {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
 }

@@ -5,7 +5,7 @@ export default function Contact() {
     <div id="contact">
       <h1>#Contact</h1>
       <p>
-        To contact me please email me:
+        To contact me please email me:{" "}
         <a href="mailto:rskaraya@gmail.com">rskaraya at gmail dot com</a>
       </p>
       <p className="extra-contact">
