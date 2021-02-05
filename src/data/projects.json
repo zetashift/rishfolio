@@ -33,7 +33,7 @@
   },
   {
     "projectName": "Godot Nim Samples",
-    "projectDescription": "Made when there was little documentation on Godot, I experimented enough to make two games, Dodge The Creeps and Game Of Life, using Nim. Using this method of little to no hand-holding I got a deeper understanding of Nim and Godot.",
+    "projectDescription": "Made when there was little documentation on Godot, I experimented enough to make three games, a Breakoutclone, Dodge The Creeps and Game Of Life, using Nim. Using this method of little to no hand-holding I got a deeper understanding of Nim and Godot.",
     "projectTags": ["Godot Engine", "Nim", "Game Development"],
     "githubURL": "https://github.com/zetashift/godotnim-samples",
     "img": "/godotnimsamples.png",

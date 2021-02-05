@@ -27,6 +27,7 @@
 }
 
 .project-container {
+  object-fit: cover;
   display: flex;
   width: 500px;
   flex-direction: column;
@@ -81,6 +82,7 @@
 }
 
 .project-tags h3 {
+  font-weight: 700;
   padding: 10px;
   margin: 5px;
   background-color: $champagne-pink;
