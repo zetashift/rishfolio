@@ -19,7 +19,7 @@ import { SiElixir } from "@react-icons/all-files/si/SiElixir"
 export default function Technologies() {
   return (
     <div class="techs">
-      <h2>Technologies I ❤: </h2>️
+      <h2>Technologies I ❤️: </h2>️
       <div class="tech-grid">
         <a href="https://www.scala-lang.org/">
           <div class="tech">
