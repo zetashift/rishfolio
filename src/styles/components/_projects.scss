@@ -9,8 +9,7 @@
 
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(autofill,  300px);
-  grid-auto-rows: auto;
+  grid-template-columns: 1fr;
   justify-content: center;
 
   @media (min-width: 1000px) {
@@ -20,10 +19,16 @@
   @media (min-width: 1400px) {
     grid-template-columns: 1fr 1fr 1fr;
   }
+
+  // display: flex;
+  // flex-direction: row;
+  // // flex-wrap: wrap;
+  // justify-content: center;
 }
 
 .project-container {
   display: flex;
+  width: 500px;
   flex-direction: column;
   border: 2px $desert-sand solid;
   margin: 1em;
@@ -63,6 +68,7 @@
 .project-links a:hover {
   cursor: pointer;
   color: white;
+  background-color: $brown;
 }
 
 .project-links::before {

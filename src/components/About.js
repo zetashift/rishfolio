@@ -3,8 +3,8 @@ import Technologies from "./Technologies"
 
 export default function About() {
   return (
-    <div class="about-me" id="about">
-      <h1>Hello!👋</h1>
+    <div className="about-me" id="about">
+      <h1>Hello!<span role="img" aria-label="hello">👋</span></h1>
       <p>
         I'm a passionate developer, who loves open-source (sharing is caring!)
         and learning. Improving myself is something I try to do everyday. I have
@@ -17,11 +17,11 @@ export default function About() {
       <p>
         Learning and experimenting with shiny new technologies isn't the only
         thing I'm focused on however. I always try to find the right tool for
-        solving the problem at hand, this means that sometimes you need to reach out to the proven
-        and well established ways of doing things.
+        solving the problem at hand, this means that sometimes you need to reach
+        out to the proven and well established ways of doing things.
       </p>
 
-      <p class="about-me-personal">
+      <p className="about-me-personal">
         I'm currently based in Rotterdam, The Netherlands. Besides programming,
         I very much enjoy contributing to open-source projects, working out and
         food.

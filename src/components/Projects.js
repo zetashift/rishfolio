@@ -1,22 +1,27 @@
 import React from "react"
 import Project from "./Project"
+import projectsData from "../data/projects.json"
 
-const tags = ["React", "React Router", "Firebase", "Vercel", "Styled Components"]
+const projects = projectsData.map(
+  ({ projectName, projectDescription, projectTags, githubURL, siteURL, img, imgAlt }) => (
+    <Project
+      key={projectName}
+      projectName={projectName}
+      projectDescription={projectDescription}
+      projectTags={projectTags}
+      githubURL={githubURL}
+      siteURL={siteURL}
+      img={img}
+      imgAlt={imgAlt}
+    />
+  )
+)
 
 export default function Projects() {
   return (
     <div id="projects">
       <h1>#Projects</h1>
-      <div class="projects-grid">
-        <Project projectName="React Netflix Clone" projectTags={tags}></Project>
-        <Project
-          projectName="PicSome"
-          projectTags={tags}
-          githubURL="https://github.com/zetashift/react-netflix-clone"
-        />
-        <Project projectName="Indecision" projectTags={tags} />
-        <Project projectName="GodotNimSamples" projectTags={tags} />
-      </div>
+      <div className="projects-grid">{projects}</div>
     </div>
   )
 }

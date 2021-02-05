@@ -15,22 +15,22 @@ const Logo = () => (
 export default function Header() {
   return (
     <Headroom>
-    <nav>
-      <Logo />
-      <div class="nav-links">
-        <AnchorLink to="#about" title="About" className="nav-link" />
-        <AnchorLink to="#projects" title="Projects" className="nav-link" />
-        <AnchorLink to="#contact" title="Contact" className="nav-link" />
-        <div class="nav-icons">
-          <a href="https://github.com/zetashift" className="nav-link-icon">
-            <AiOutlineGithub />
-          </a>
-          <a href="mailto:rskaraya@gmail.com" className="nav-link-icon">
-            <AiOutlineMail />
-          </a>
+      <nav>
+        <Logo />
+        <div className="nav-links">
+          <AnchorLink to="#about" title="About" className="nav-link" />
+          <AnchorLink to="#projects" title="Projects" className="nav-link" />
+          <AnchorLink to="#contact" title="Contact" className="nav-link" />
+          <div className="nav-icons">
+            <a href="https://github.com/zetashift" className="nav-link-icon">
+              <AiOutlineGithub />
+            </a>
+            <a href="mailto:rskaraya@gmail.com" className="nav-link-icon">
+              <AiOutlineMail />
+            </a>
+          </div>
         </div>
-      </div>
-    </nav>
-</Headroom>
+      </nav>
+    </Headroom>
   )
 }

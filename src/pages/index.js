@@ -1,7 +1,7 @@
 import React from "react"
 import { Header, About, Projects, Footer, Contact } from "../components"
 
-const Break = () => <hr class="break" />
+const Break = () => <hr className="break" />
 
 export default function Home() {
   return (

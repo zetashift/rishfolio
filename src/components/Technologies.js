@@ -5,25 +5,32 @@ import { DiPython } from "@react-icons/all-files/di/DiPython"
 import { DiHtml5 } from "@react-icons/all-files/di/DiHtml5"
 import { DiCss3 } from "@react-icons/all-files/di/DiCss3"
 import { DiSass } from "@react-icons/all-files/di/DiSass"
-import { AiOutlineConsoleSql } from "@react-icons/all-files/ai/AiOutlineConsoleSql.esm";
+import { AiOutlineConsoleSql } from "@react-icons/all-files/ai/AiOutlineConsoleSql.esm"
 import { SiNim } from "@react-icons/all-files/si/SiNim"
 import { SiGodotengine } from "@react-icons/all-files/si/SiGodotengine"
 import { DiGit } from "@react-icons/all-files/di/DiGit"
 import { DiLinux } from "@react-icons/all-files/di/DiLinux"
 import { SiElixir } from "@react-icons/all-files/si/SiElixir"
 
-
 // This might seem like a big component
 // But it's just a grid with a lot of cells
 // Each cell representing a technology I'm invested in
 export default function Technologies() {
   return (
-    <div class="techs">
-      <h2>Technologies I ❤️: </h2>️
-      <div class="tech-grid">
+    <div className="techs">
+      <h2>
+        Technologies I
+        <span role="img" aria-label="love">
+          {" "}
+          ❤️
+        </span>
+        :
+      </h2>
+      ️
+      <div className="tech-grid">
         <a href="https://www.scala-lang.org/">
-          <div class="tech">
-            <div class="tech-icon">
+          <div className="tech">
+            <div className="tech-icon">
               <DiScala />
             </div>
             Scala
@@ -31,8 +38,8 @@ export default function Technologies() {
         </a>
 
         <a href="https://www.python.org/">
-          <div class="tech">
-            <div class="tech-icon">
+          <div className="tech">
+            <div className="tech-icon">
               <DiPython />
             </div>
             Python
@@ -40,8 +47,8 @@ export default function Technologies() {
         </a>
 
         <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
-          <div class="tech">
-            <div class="tech-icon">
+          <div className="tech">
+            <div className="tech-icon">
               <DiJavascript />
             </div>
             Javascript
@@ -49,16 +56,16 @@ export default function Technologies() {
         </a>
 
         <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics">
-          <div class="tech">
-            <div class="tech-icon">
+          <div className="tech">
+            <div className="tech-icon">
               <DiHtml5 />
             </div>
             HTML
           </div>
         </a>
         <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
-          <div class="tech">
-            <div class="tech-icon">
+          <div className="tech">
+            <div className="tech-icon">
               <DiCss3 />
             </div>
             CSS3
@@ -66,8 +73,8 @@ export default function Technologies() {
         </a>
 
         <a href="https://sass-lang.com/">
-          <div class="tech">
-            <div class="tech-icon">
+          <div className="tech">
+            <div className="tech-icon">
               <DiSass />
             </div>
             Sass/SCSS
@@ -75,8 +82,8 @@ export default function Technologies() {
         </a>
 
         <a href="https://developer.mozilla.org/en-US/docs/Glossary/SQL">
-          <div class="tech">
-            <div class="tech-icon">
+          <div className="tech">
+            <div className="tech-icon">
               <AiOutlineConsoleSql />
             </div>
             SQL
@@ -84,8 +91,8 @@ export default function Technologies() {
         </a>
 
         <a href="https://nim-lang.org/">
-          <div class="tech">
-            <div class="tech-icon">
+          <div className="tech">
+            <div className="tech-icon">
               <SiNim />
             </div>
             Nim
@@ -93,8 +100,8 @@ export default function Technologies() {
         </a>
 
         <a href="https://godotengine.org/">
-          <div class="tech">
-            <div class="tech-icon">
+          <div className="tech">
+            <div className="tech-icon">
               <SiGodotengine />
             </div>
             Godot
@@ -102,8 +109,8 @@ export default function Technologies() {
         </a>
 
         <a href="https://git-scm.com/">
-          <div class="tech">
-            <div class="tech-icon">
+          <div className="tech">
+            <div className="tech-icon">
               <DiGit />
             </div>
             Git
@@ -111,8 +118,8 @@ export default function Technologies() {
         </a>
 
         <a href="https://www.kernel.org/">
-          <div class="tech">
-            <div class="tech-icon">
+          <div className="tech">
+            <div className="tech-icon">
               <DiLinux />
             </div>
             Linux
@@ -120,15 +127,15 @@ export default function Technologies() {
         </a>
 
         <a href="https://www.kernel.org/">
-          <div class="tech">
-            <div class="tech-icon">
+          <div className="tech">
+            <div className="tech-icon">
               <SiElixir />
             </div>
             Elixir
           </div>
         </a>
 
-        <div class="tech-text">...And many more to come!</div>
+        <div className="tech-text">...And many more to come!</div>
       </div>
     </div>
   )
