@@ -6,5 +6,5 @@
 
 module.exports = {
   // I'm using Scss for this
-  plugins: [`gatsby-plugin-sass`, `gatsby-plugin-anchor-links`],
+  plugins: [`gatsby-plugin-sass`, `gatsby-plugin-anchor-links`, `gatsby-plugin-react-helmet`],
 }
