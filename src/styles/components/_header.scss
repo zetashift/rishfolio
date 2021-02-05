@@ -5,16 +5,19 @@ nav {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: baseline;
+  align-items: center;
   text-align: center;
   font-family: $font-patua;
   font-size: 2rem;
   background-color: $desert-sand;
   margin-bottom: 0;
-  max-height: 4em;
+
   @media (min-width: $mobile-desktop-breakpoint) {
     flex-direction: row;
+    max-height: 4em;
+    text-align: baseline;
   }
+
 }
 
 #logo {
@@ -52,7 +55,6 @@ nav {
   margin-top: 0;
   padding: 0.3em;
   align-items: center;
-
   @media (min-width: $mobile-desktop-breakpoint) {
     flex-direction: row;
   }

@@ -16,7 +16,7 @@
   },
   {
     "projectName": "PicSome",
-    "projectDescription": "Using the Scrimba platform, I built a ECommerce capstone project. Responsive design using some basic CSS and modular thanks to React, React Hooks and the Context API.",
+    "projectDescription": "Using the Scrimba platform, I built a ECommerce capstone project. Responsive design using some basic CSS and modular thanks to React, React Hooks and the Context API. You can use Scrimba to view and edit my code.",
     "projectTags": ["React", "React Router", "Hooks", "Context"],
     "siteURL": "https://scrimba.com/scrim/cob034da38e42df4a040e6c13",
     "img": "/picsome.png",

@@ -12,9 +12,12 @@ const Logo = () => (
   </div>
 )
 
+
+// We need these extra's to disable Headroom on mobile
+const mediaQuery = window.matchMedia("(max-width: 650px)")
 export default function Header() {
   return (
-    <Headroom>
+    <Headroom disable={mediaQuery.matches}>
       <nav>
         <Logo />
         <div className="nav-links">
