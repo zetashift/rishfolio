@@ -16,7 +16,7 @@
   },
   {
     "projectName": "PicSome",
-    "projectDescription": "Using the Scrimba platform, I built a ECommerce capstone project. Responsive design using some basic CSS and modular thanks to React, React Hooks and the Context API. You can use Scrimba to view and edit my code.",
+    "projectDescription": "Using the Scrimba platform, I built an ECommerce capstone project. Responsive design using some basic CSS and modular thanks to React, React Hooks and the Context API. You can use Scrimba to view and edit my code.",
     "projectTags": ["React", "React Router", "Hooks", "Context"],
     "siteURL": "https://scrimba.com/scrim/cob034da38e42df4a040e6c13",
     "img": "/picsome.png",
@@ -24,7 +24,7 @@
   },
   {
     "projectName": "Indecision",
-    "projectDescription": "It's a simple To-Do site with an nice added bonus. But here I discovered a lot of the inner workings of the JS ecosystem. Webpack, Babel and SCSS are all used without relying too much on external tooling.",
+    "projectDescription": "It's a simple To-Do site with a nice added bonus. But here I discovered a lot of the inner workings of the JS ecosystem. Webpack, Babel and SCSS are all used without relying too much on external tooling.",
     "projectTags": ["React", "Webpack", "SCSS/Sass", "Babel"],
     "githubURL": "https://github.com/zetashift/indecision_app",
     "siteURL": "https://indecision-app-coral.vercel.app/",
@@ -33,7 +33,7 @@
   },
   {
     "projectName": "Godot Nim Samples",
-    "projectDescription": "Made when there was little documentation on Godot, I experimented enough to make three games, a Breakoutclone, Dodge The Creeps and Game Of Life, using Nim. Using this method of little to no hand-holding I got a deeper understanding of Nim and Godot.",
+    "projectDescription": "Made when there was little documentation on Godot, I experimented enough to make three games, a Breakout clone, Dodge The Creeps and Game Of Life, using Nim. Using this method of little to no hand-holding I got a deeper understanding of Nim and Godot.",
     "projectTags": ["Godot Engine", "Nim", "Game Development"],
     "githubURL": "https://github.com/zetashift/godotnim-samples",
     "img": "/godotnimsamples.png",
