@@ -11,7 +11,7 @@
     ],
     "githubURL": "https://github.com/zetashift/react-netflix-clone",
     "siteURL": "https://react-netflix-clone-sage.vercel.app/",
-    "img": "/images/netflix.png",
+    "img": "/netflix.png",
     "imgAlt": "Preview of React Netflix Clone"
   },
   {
@@ -19,7 +19,7 @@
     "projectDescription": "Using the Scrimba platform, I built a ECommerce capstone project. Responsive design using some basic CSS and modular thanks to React, React Hooks and the Context API.",
     "projectTags": ["React", "React Router", "Hooks", "Context"],
     "siteURL": "https://scrimba.com/scrim/cob034da38e42df4a040e6c13",
-    "img": "/images/picsome.png",
+    "img": "/picsome.png",
     "imgAlt": "Preview of PicSome"
   },
   {
@@ -28,7 +28,7 @@
     "projectTags": ["React", "Webpack", "SCSS/Sass", "Babel"],
     "githubURL": "https://github.com/zetashift/indecision_app",
     "siteURL": "https://indecision-app-coral.vercel.app/",
-    "img": "/images/indecision.png",
+    "img": "/indecision.png",
     "imgAlt": "Preview of Indecision App"
   },
   {
@@ -36,7 +36,7 @@
     "projectDescription": "Made when there was little documentation on Godot, I experimented enough to make two games, Dodge The Creeps and Game Of Life, using Nim. Using this method of little to no hand-holding I got a deeper understanding of Nim and Godot.",
     "projectTags": ["Godot Engine", "Nim", "Game Development"],
     "githubURL": "https://github.com/zetashift/godotnim-samples",
-    "img": "/images/godotnimsamples.png",
+    "img": "/godotnimsamples.png",
     "imgAlt": "Preview of GodotNimSamples"
   }
 ]
