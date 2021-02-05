@@ -1,0 +1,27 @@
+// These have weight of 400
+@import "~@fontsource/patua-one/index.css";
+@import "~@fontsource/inconsolata/index.css";
+
+/** Variables 
+I'm using `em` if the property scales according to
+it's `font-size` and everything else will be in `rem`
+
+**/
+
+$font-size-big: 2rem;
+$font-patua: "Patua One";
+$font-inconsolata: "Inconsolata";
+$mobile-desktop-breakpoint: 650px;
+
+// Color palette
+$antique-brass: #cb997eff;
+$champagne-pink: #eddcd2ff;
+$linen: #fff1e6ff;
+$isabelline: #f0efebff;
+$desert-sand: #ddbea9ff;
+$artichoke: #a5a58dff;
+$ash-gray: #b7b7a4ff;
+$bistre: #3a2417;
+$brown: #75482f;
+$orange: #ff740a;
+

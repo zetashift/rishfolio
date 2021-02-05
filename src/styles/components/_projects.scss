@@ -1,0 +1,74 @@
+@import "../globals";
+
+#projects {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 60rem;
+  margin-bottom: 2em;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(autofill,  300px);
+  grid-auto-rows: auto;
+  justify-content: center;
+
+  @media (min-width: 1000px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media (min-width: 1400px) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+  border: 2px $desert-sand solid;
+  margin: 1em;
+  box-shadow: 5px 5px $champagne-pink;
+}
+
+.project-container:hover {
+  top: -2px;
+  box-shadow: 7px 7px $ash-gray;
+}
+
+.project-title {
+  font-size: 1.6rem;
+}
+
+.project-description {
+  font-size: 1.2rem;
+}
+
+.project-links {
+  font-size: 1.3rem;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.project-links a:hover {
+  cursor: pointer;
+  color: orange;
+}
+
+.project-links::before {
+  content: "\200B";
+}
+
+.project-tags {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.project-tags h3 {
+  padding: 10px;
+  margin: 5px;
+  background-color: $champagne-pink;
+  border-radius: 25px;
+}

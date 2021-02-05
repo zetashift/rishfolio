@@ -5,6 +5,6 @@
  */
 
 module.exports = {
-  /* Your site config here */
-  plugins: [],
+  // I'm using Scss for this
+  plugins: [`gatsby-plugin-sass`, `gatsby-plugin-anchor-links`],
 }
