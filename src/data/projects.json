@@ -1,13 +1,8 @@
 [
   {
     "projectName": "React Netflix Clone",
-    "projectDescription": "A React MVP project where I implemented a lot of functionality of the Netflix site, including signup/signin functionality, browse page and more in a Single Page Application.",
-    "projectTags": [
-      "React",
-      "React Router",
-      "Firebase",
-      "Vercel"
-    ],
+    "projectDescription": "A React MVP project where I implemented a lot of functionality of the Netflix site, including signup/signin functionality, browse page and more in a Single Page Application. I learned a lot about intermediate React concepts.",
+    "projectTags": ["React", "React Router", "Firebase", "Vercel"],
     "githubURL": "https://github.com/zetashift/react-netflix-clone",
     "siteURL": "https://react-netflix-clone-sage.vercel.app/",
     "img": "/netflix.png",

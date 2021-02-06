@@ -30,8 +30,7 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  
-  justify-content: space-around;
+  // justify-content: space-around;
   // align-content: space-around;
   border: 2px $desert-sand solid;
   margin: 1em;
@@ -43,16 +42,14 @@
   }
 }
 
-
 .project-img img {
   @media (max-width: 500px) {
-    
     width: 100%;
     object-fit: cover;
   }
 }
 .project-container:hover {
-  top: -2px;
+  // top: -2px;
   box-shadow: 7px 7px $ash-gray;
 }
 

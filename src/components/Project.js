@@ -11,7 +11,7 @@ export default function Project({
 }) {
   return (
     <div className="project-container">
-      <a href={siteURL}><img src={img} alt={imgAlt} width="100%" height="400px" /></a>
+      <img src={img} alt={imgAlt} width="100%" height="400px" />
       <h1 className="project-title">{projectName}</h1>
       
         <p className="project-description">{projectDescription}</p>
