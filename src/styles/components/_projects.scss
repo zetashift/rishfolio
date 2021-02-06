@@ -30,6 +30,9 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  
+  justify-content: space-around;
+  // align-content: space-around;
   border: 2px $desert-sand solid;
   margin: 1em;
   box-shadow: 5px 5px $champagne-pink;
@@ -40,8 +43,10 @@
   }
 }
 
-.project-container img {
+
+.project-img img {
   @media (max-width: 500px) {
+    
     width: 100%;
     object-fit: cover;
   }
@@ -56,6 +61,7 @@
 }
 
 .project-description {
+  display: inline-flex;
   font-size: 1.2rem;
   text-align: left;
   margin-right: 10px;
@@ -64,8 +70,9 @@
 }
 
 .project-links {
+  
   font-size: 1.3rem;
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   flex-direction: row;
   align-items: baseline;

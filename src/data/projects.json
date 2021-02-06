@@ -6,8 +6,7 @@
       "React",
       "React Router",
       "Firebase",
-      "Vercel",
-      "Styled Components"
+      "Vercel"
     ],
     "githubURL": "https://github.com/zetashift/react-netflix-clone",
     "siteURL": "https://react-netflix-clone-sage.vercel.app/",
@@ -24,7 +23,7 @@
   },
   {
     "projectName": "Indecision",
-    "projectDescription": "It's a simple To-Do site with a nice added bonus. But here I discovered a lot of the inner workings of the JS ecosystem. Webpack, Babel and SCSS are all used without relying too much on external tooling.",
+    "projectDescription": "It's a simple to-do site, however the repo has documentation I made explaining the conceps I use and it does not rely on external tooling like Create React App. Documentation is important and one cannot always rely on libraries.",
     "projectTags": ["React", "Webpack", "SCSS/Sass", "Babel"],
     "githubURL": "https://github.com/zetashift/indecision_app",
     "siteURL": "https://indecision-app-coral.vercel.app/",
