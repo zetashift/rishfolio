@@ -6,8 +6,7 @@ export default function About() {
     <div className="about-me" id="about">
       <h1>Hello!<span role="img" aria-label="hello">👋</span></h1>
       <p>
-        I'm a passionate developer, who loves open-source (sharing is caring!)
-        and learning. Improving myself is something I try to do everyday. I have
+        I'm a passionate developer, who loves open-source and learning. Improving myself is something I try to do everyday. I have
         a natural curiosity to understand why and how things work the way they
         do, especially when it comes to computers. This resulted in me exploring
         domains like Web Development, Game Development and Data Science.
