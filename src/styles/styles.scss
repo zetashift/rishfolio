@@ -13,6 +13,9 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: $linen;
   font-family: $font-inconsolata;
